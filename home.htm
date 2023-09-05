@@ -1,0 +1,648 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="prec onnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>INSIGHT_X</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+
+TemplateMo 570 Chain App Dev
+
+https://templatemo.com/tm-570-chain-app-dev
+
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/logo 3.png" alt="Chain App Dev">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a style="color: #ff007b;" href="#">|</a></li>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <li class="scroll-to-section"><a style="color: #ff007b;" href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a style="color: #ff007b;" href="#clients">Events-date</a></li>
+              <li class="scroll-to-section"><a style="color: #ff007b;" href="#pricing">Register Now</a></li>
+              <li class="scroll-to-section"><a style="color: #ff007b;" href="#newsletter">Contact</a></li>
+              <li class="scroll-to-section"><a style="color: #ff007b;" href="#">|</a></li>
+            </ul>        
+          
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  
+  <div id="modal" class="popupContainer" style="display:none;">
+    <div class="popupHeader">
+        <span class="header_title">Login</span>
+        <span class="modal_close"><i class="fa fa-times"></i></span>
+    </div>
+
+    <section class="popupBody">
+        <!-- Social Login -->
+        <div class="social_login">
+            <div class="">
+                <a href="#" class="social_box fb">
+                    <span class="icon"><i class="fab fa-facebook"></i></span>
+                    <span class="icon_title">Connect with Facebook</span>
+
+                </a>
+
+                <a href="#" class="social_box google">
+                    <span class="icon"><i class="fab fa-google-plus"></i></span>
+                    <span class="icon_title">Connect with Google</span>
+                </a>
+            </div>
+
+            <div class="centeredText">
+                <span>Or use your Email address</span>
+            </div>
+
+            <div class="action_btns">
+                <div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+                <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+            </div>
+        </div>
+
+        <!-- Username & Password Login form -->
+        <div class="user_login">
+            <form>
+                <label>Email / Username</label>
+                <input type="text" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="remember" type="checkbox" />
+                    <label for="remember">Remember me on this computer</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
+                </div>
+            </form>
+
+            <a href="#" class="forgot_password">Forgot password?</a>
+        </div>
+
+        <!-- Register Form -->
+        <div class="user_register">
+            <form>
+                <label>Full Name</label>
+                <input type="text" />
+                <br />
+
+                <label>Email Address</label>
+                <input type="email" />
+                <br />
+
+                <label>Password</label>
+                <input type="password" />
+                <br />
+
+                <div class="checkbox">
+                    <input id="send_updates" type="checkbox" />
+                    <label for="send_updates">Send me occasional email updates</label>
+                </div>
+
+                <div class="action_btns">
+                    <div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+                    <div class="one_half last"><a href="#" class="btn btn_red">Register</a></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="home__data"> 
+                      <!-- <h1 class="home__title">INSIGHT_X</h1> -->
+                      <!-- <p class="home__description">BIT proudly presents!</p> -->
+                     <h1 style="font-size: 70px;color: rgb(0, 0, 0); "> <div class="anaglyphic" title="INSIGHT "> INSIGHT <span style="color:#000000">X</span></div> </h1> 
+                      <p class="home__description">A Event Conducted by Department of Artificial Intelligence <br> and Data Science of
+                        Bannari Amman Institute Of Technology <br><strong>Heartly Welcomes you to Join us!</strong></p>
+                      <h6> Scroll Down To view More</h6>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/logo_white.png" alt="" height="100px" style="position: relative;left:0px;top:-10px" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- 
+  <div id="services" class="services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading  wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h4 style="color: #FF007B;">EVENTS </h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+              <center> <b>Here are the various catogories of events to be Conducted</b>  </center>    
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>TECHNICAL</h4>
+            <p></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item second-service">
+            <div class="icon"></div>
+            <h4>NON-TECHINCAL</h4>
+            <p></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item third-service">
+            <div class="icon"></div>
+            <h4>WORKSHOP</h4>
+            <p></p>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="service-item first-service">
+            <div class="icon"></div>
+            <h4>HACKATHON</h4>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center">
+          <div class="section-heading">
+            <h4>About <em>What We Do</em> &amp; Who We Are</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Maintance Problems</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">24/7 Support &amp; Help</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Fixing Issues About</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="box-item">
+                <h4><a href="#">Co. Development</a></h4>
+                <p>Lorem Ipsum Text</p>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor idunte ut labore et dolore adipiscing  magna.</p>
+              <div class="gradient-button">
+                <a href="#">Start 14-Day Free Trial</a>
+              </div>
+              <span>*No Credit Card Required</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-image">
+            <img src="assets/images/about-right-dec.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <div id="clients" class="the-clients">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4> Your Exciting Event <em>INSIGHT_X</em> Is About To Begin In</h4>
+            <img src="assets/images/heading-line-dec.png" alt=""><br>
+           <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+<a href="https://logwork.com/countdown-1iew" class="countdown-timer" data-style="circles" data-timezone="Asia/Kolkata" data-date="2023-10-05 23:59" data-background="#4b8ef1" data-digitscolor="#ff007b">October 06<br></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="pricing" class="pricing-tables">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <!-- <div class="section-heading">
+            <h4>We Have The Best Pre-Order <em>Prices</em> You Can Get</h4>
+            <img src="assets/images/heading-line-dec.png" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eismod tempor incididunt ut labore et dolore magna.</p>
+          </div> -->
+          <div class="wrapper">
+            <svg>
+              <text x="50%" y="50%" dy=".35em" text-anchor="middle">REGISTER NOW !!</text>
+            </svg>
+             <center> <b>  Click the catagory to view the Event details  </b> </center>
+          </div>
+        </div>
+        <!-- <div class="col-lg-4">
+          <div class="pricing-item-regular">
+            <span class="price">$12</span>
+            <h4>Standard Plan App</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Lorem Ipsum Dolores</li>
+              <li>20 TB of Storage</li>
+              <li class="non-function">Life-time Support</li>
+              <li class="non-function">Premium Add-Ons</li>
+              <li class="non-function">Fastest Network</li>
+              <li class="non-function">More Options</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Purchase This Plan Now</a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- flip-card-1 -->
+        <div class="col-lg-4">
+          
+        <div class="flip-card-container" style="--hue: 220">
+
+          <div class="flip-card">
+         
+             <div class="card-front">
+               <figure>
+                 <!-- <div class="img-bg"></div> -->
+                 <img src="Cards_images/tech.png">
+                 <figcaption>TECHNICAL</figcaption>
+               </figure>
+             </div>
+         
+             <div class="card-back">
+               <figure>
+                 <!-- <div class="img-bg"></div> -->
+                 <img src="Cards_images/tech_back.png" alt="Brohm Lake">
+               </figure>
+         
+               <button style="position: relative; top:-15px" onclick="Technical_redirect()">Click to know more ...</button>
+         
+               <div class="design-container">
+                 <span class="design design--1"></span>
+                 <span class="design design--2"></span>
+                 <span class="design design--3"></span>
+                 <span class="design design--4"></span>
+                 <span class="design design--5"></span>
+                 <span class="design design--6"></span>
+                 <span class="design design--7"></span>
+                 <span class="design design--8"></span>
+               </div>
+             </div>
+         
+           </div>
+          </div>
+          <!-- flip-card-1 -->
+           
+         </div>
+        <div class="col-lg-4">
+          <!-- <div class="pricing-item-pro">
+            <span class="price">$25</span>
+            <h4>Business Plan App</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Lorem Ipsum Dolores</li>
+              <li>50 TB of Storage</li>
+              <li>Life-time Support</li>
+              <li>Premium Add-Ons</li>
+              <li class="non-function">Fastest Network</li>
+              <li class="non-function">More Options</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Purchase This Plan Now</a>
+            </div>
+          </div> -->
+          <div class="flip-card-container" style="--hue: 170">
+            <div class="flip-card">
+          
+              <div class="card-front">
+                <figure>
+                  <!-- <div class="img-bg"></div> -->
+                  <img src="Cards_images/nontech.png">
+                  <figcaption>NON-TECHINCAL</figcaption>
+                </figure>
+          
+              </div>
+          
+              <div class="card-back">
+                <figure>
+                  <!-- <div class="img-bg"></div> -->
+                  <img src="Cards_images/nontech_back.png" alt="image-2">
+                </figure>
+          
+                <button  style="position: relative; top:-15px"  onclick="non_Technical_redirect()">Click to know more ...</button>
+          
+                <div class="design-container">
+                  <span class="design design--1"></span>
+                  <span class="design design--2"></span>
+                  <span class="design design--3"></span>
+                  <span class="design design--4"></span>
+                  <span class="design design--5"></span>
+                  <span class="design design--6"></span>
+                  <span class="design design--7"></span>
+                  <span class="design design--8"></span>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <!-- <div class="pricing-item-regular">
+            <span class="price">$66</span>
+            <h4>Premium Plan App</h4>
+            <div class="icon">
+              <img src="assets/images/pricing-table-01.png" alt="">
+            </div>
+            <ul>
+              <li>Lorem Ipsum Dolores</li>
+              <li>120 TB of Storage</li>
+              <li>Life-time Support</li>
+              <li>Premium Add-Ons</li>
+              <li>Fastest Network</li>
+              <li>More Options</li>
+            </ul>
+            <div class="border-button">
+              <a href="#">Purchase This Plan Now</a>
+            </div>
+          </div> -->
+          <div class="flip-card-container" style="--hue: 350">
+            <div class="flip-card">
+          
+              <div class="card-front">
+                <figure>
+                  <!-- <div class="img-bg"></div> -->
+                  <img src="Cards_images/hackathon.png" alt="Brohm Lake">
+                  <figcaption>HACKATHON</figcaption>
+                </figure>
+              </div>
+          
+              <div class="card-back">
+                <!-- only if the image is necessary -->
+                <figure>
+                  <!-- <div class="img-bg"></div> -->
+                  <img src="Cards_images/hackathon_back.png" alt="Brohm Lake">
+                </figure>
+          
+                <button  style="position: relative; top:-15px"  onclick="hackathon_redirect()" >Click to know more ...</button>
+          
+                <!-- can add svg here and remove these eight spans -->
+                <div class="design-container">
+                  <span class="design design--1"></span>
+                  <span class="design design--2"></span>
+                  <span class="design design--3"></span>
+                  <span class="design design--4"></span>
+                  <span class="design design--5"></span>
+                  <span class="design design--6"></span>
+                  <span class="design design--7"></span>
+                  <span class="design design--8"></span>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 style="font-size: 30px; font-family: Garamond, serif;" class="reg">Please check the details of the events above and Do Register here</h1><br>
+    <center><ul ><li><div class="gradient-button"><a id="modal_trigger" href="https://docs.google.com/forms/d/e/1FAIpQLSfCwpZBAC9VXvpSxMWV63CMxTF4cBisN0pI1dQykmBP9_EDvw/viewform"><i class="fa fa-sign-in-alt"></i> Register</a></div></li> </ul></center>
+  </div> 
+  <br>
+  <div class="deadline">
+    <h4 style="text-align: center;"><span id="text" ><i class='fas fa-exclamation-triangle' style='font-size:24px; color: red;'></i> Deadline - September 25 </span></h4>
+
+  </div>
+
+  <footer id="newsletter">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+          <div class="section-heading">
+            <h4>For any queries please feel free to contact us.</h4>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3">
+          <form id="search" action="#" method="GET">
+            <div class="row">
+              <!-- <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <input type="address" name="address" class="email" placeholder="Email Address..." autocomplete="on" required>
+                </fieldset>
+              </div> -->
+              <!-- <div class="col-lg-6 col-sm-6">
+                <fieldset>
+                  <button type="submit" class="main-button">Subscribe Now <i class="fa fa-angle-right"></i></button>
+                </fieldset>
+              </div> -->
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div  class="footer-widget">
+            <h4 style="color: #FF007B;">Contact Us</h4>
+            <h4>Faculty Co-ordinators</h4>
+            <p>Rajkumar V S</p>
+            <p>Chozarajan P</p>
+            <h4>Student Co-ordinators</h4>
+            <p> Tarunbalaji S - <a href="tel:+919345817473"> 93458 17473</a></p> 
+            <p> Pradeepkumar S  - <a href="tel:+918124438168"> 81244 38168</a></p>
+            <!-- <p><a href="#">010-020-0340</a></p>
+            <p><a href="#">info@company.co</a></p> -->
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4 style="color: #FF007B;">About Event</h4>
+        
+            <ul>
+              <li><a href="#top">Home</a></li>
+              <li><a href="#services">Events</a></li>
+              <li><a href="#pricing">Registration</a></li>
+              
+              <li><a href="#newsletter">Contact</a></li>
+            </ul>
+            <ul>
+              <li><a href="https://www.instagram.com/insightx.bit/">
+                <i class="fab fa-instagram"></i> Instagram</a></li>
+              <li><a href="mailto:insightx@bitsathy.ac.in">
+                <i class="fa fa-envelope"></i>  Email
+                </a></li>
+              <li><a href="https://www.bitsathy.ac.in/">
+                <i class='fas fa-globe'></i> bitsathy.ac.in
+                  </a></li>  
+              
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4 style="left: 100px; color: #FF007B">How to reach...</h4>
+            <iframe
+            class="loc"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3909.762935244095!2d77.27452747520137!3d11.497017845488882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9215d6d1b28f9%3A0xf48946a7dfcfeb1a!2sBannari%20Amman%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1692247668977!5m2!1sen!2sin"
+            style="border: 0 ; "
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+            <!-- <ul>
+              <li><a href="#">Free Apps</a></li>
+              <li><a href="#">App Engine</a></li>
+              <li><a href="#">Programming</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">App News</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">App Dev Team</a></li>
+              <li><a href="#">Digital Web</a></li>
+              <li><a href="#">Normal Apps</a></li>
+            </ul> -->
+       
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="footer-widget">
+            <h4 style="color: #FF007B;">About Us</h4>
+            <div class="logo">
+              <img src="assets/images/bit.jpeg" alt="">
+            </div>
+            <p>Bannari Amman Institute of Technology is an Autonomous, Self-financing Engineering College, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai. 
+               BIT campus provides environment for learning in harmony with nature, away from the odds of the city life.</p>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="copyright-text">
+            <p style="font-family: Courier New, Courier, monospace;">Copyright © InsightX'23. All Rights Reserved. 
+          <br>Developed by: <br>
+          Sumugan P N & Harishh A </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/popup.js"></script>
+  <script src="assets/js/custom.js"></script>
+  
+  
+  <script>
+    function Technical_redirect() {
+      window.location.href =
+        "technical.html";
+    }
+
+    function non_Technical_redirect() {
+      window.location.href =
+        "non_technical.html";
+    }
+
+    function hackathon_redirect() {
+      window.location.href =
+        "hackathon.html";
+    }
+</script>
+ 
+
+</body>
+</html>
